@@ -1,0 +1,31 @@
+{
+    "name": "loveycom/laravel-log-enhancer",
+    "description": "A simple Log Enhancer",
+    "type": "library",
+    "require": {
+        "php": ">=7.2.*",
+        "illuminate/support": "5.6.*",
+        "monolog/monolog": "1.23.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kayode Omolaoye",
+            "email": "kayodeomolaoye@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LoveyCom\\LaravelLogEnhancer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LoveyCom\\LaravelLogEnhancer\\LaravelLogEnhancerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
